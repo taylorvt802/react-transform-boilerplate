@@ -9,11 +9,13 @@ class Workspace extends Component {
           <IndexLink to="/">
             Home
           </IndexLink>
-          {
-            ' '
-          }
+          {' '}
           <Link to="/counter">
             Counter
+          </Link>
+          {' '}
+          <Link to="/comment">
+            Comment App
           </Link>
         </nav>
         {
